@@ -39,32 +39,33 @@ ul{
     list-style-type: none;
 }
 .body-header{
+    height: 75px;
     background: #4b73b5;
+    display: flex;
+    justify-content: center;
 }
-.body-footer{
-    background: #4b73b5;
-}
+
 .container{
     width: 1100px;
-    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container.center{
+    align-items: flex-start;
 }
 .wrapper{
     background: #ffffff;
 }
 .body-header__left{
-    height: 75px;
     background: #4b73b5;
+    display: inline-block;
 }
 .logo{
-    margin-top: 19px;
-    margin-left: 20px;
     display: inline-block;
 }
 .body-header__right{
-    margin-top: 15px;
-    margin-right: 20px; 
-    float: right;
-    text-align: right;
+    display: inline-block;
 }
 .contacts__phone{
     font-size: 21px;
@@ -78,24 +79,48 @@ ul{
     margin-top: 3px;
     color: #d4dbea;
 }
+/* хлебные крошки */
+.breadcumbs__item {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .breadcrumbs__link,
+  .breadcrumbs__separator {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .breadcrumbs__link {
+    color: rgba(178, 73, 48, 0.8);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.3;
+  }
+  
+  .breadcumbs__item--active .breadcumbs__link {
+    color: #000;
+  }
+  
+  .breadcumbs__item--active:after {
+    display: none;
+  }
+  
+  .breadcumbs__item:after {
+    content: "/";
+  }
 
 /* МЕНЮ СПРАВА */
 
 .body-page{
     margin-top: 10px;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 .sidebar{
     margin-top: 32px;
     width: 200px;
-    float: left;
-}
-.menu__list{
-    padding-left: 20px;
-    width: 100%;
-    height: auto;
-    float: left;
-    box-sizing: border-box;
 }
 .menu__item {
     width: 100%;
@@ -147,7 +172,6 @@ ul{
 }
 .page{
     width: 900px;
-    float: right;
 }
 .page-content{
     float: left;
@@ -335,34 +359,32 @@ ul{
     text-decoration: none; /* убираем нижнию полосу */
 }
 /*************** ПОДВАЛ ******************/ 
-.footer{
+.body-footer{
     height: 75px;
     background: #4b73b5;
+    display: flex;
+    justify-content: center;
 }
 .authorship{
-    float: left;
+    display: inline-block;
     width: 260px;
-    box-sizing: border-box;
-    margin-top: 10px;
-}
-.authorship__text{
     font-size: 14px;
     color: #ffffff;
-    margin: 0;
     line-height: 1.3;
 }
 .school{
     color: #fff;
 }
 
-.footer .logo{
-    margin-left: 240px;
-    margin-top: 21px;
+.body-footer .logo{
+    display: inline-block;
+    align-self: center;
+
 }
 .social-networks{
-    width: 180px;
-    float: right;
-    margin-top: 11px;
+    display: inline-block;
+    /* align-self: flex-end; */
+    justify-content: flex-end;
 }
 
 .social-net__item{
