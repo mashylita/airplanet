@@ -1,0 +1,33 @@
+.request {
+    background: url(../../img/!.png) center center #4bb56b;
+  }
+  .request__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 46px;
+  }
+  .request__text {
+    color: #fff;
+    width: 624px;
+    font-weight: 300;
+    line-height: 1.6;
+  }
+  .request__text_colored {
+    color: #f89513;
+    font-weight: bold;
+  }
+  .site{
+    color: #fff;
+    font-weight: bold;
+}
+.request__phone{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Roboto";
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;
+}

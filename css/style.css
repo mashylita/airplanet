@@ -1,0 +1,20 @@
+@import url('./layout/fonts.css');
+@import url('./layout/reset.css');
+@import url('./layout/base.css');
+
+@import url('./block/header.css');
+@import url('./block/logo.css');
+@import url('./block/contacts.css');
+@import url('./block/breadcrumbs.css');
+@import url('./block/sidebar.css');
+@import url('./block/banner.css');
+
+@import url('./block/travel.css');
+
+@import url('./block/new.css');
+@import url('./block/reviews.css');
+@import url('./block/request.css');
+@import url('./block/form.css');
+@import url('./block/team.css');
+@import url('./block/partners.css');
+@import url('./block/footer.css');

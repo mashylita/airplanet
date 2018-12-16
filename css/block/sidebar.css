@@ -1,0 +1,70 @@
+.sidebar{
+    margin-top: 32px;
+    width: 20%;
+}
+.menu__item {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+.menu__link{
+    display: block;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.menu__list{
+    padding-left: 20px;
+    width: 100%;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+}  
+.menu__icon{
+    width: 23px;
+    height: 18px;
+    float: left;
+}
+.menu__item.menu__link--airplane .menu__icon{
+    background-image: url(../../icons/main_icon.png);
+}
+.menu__item.menu__link--star .menu__icon{
+    background-image: url(../../icons/feed_icon.png);
+}
+.menu__item.menu__link--team .menu__icon{
+    background-image: url(../../icons/team_icon.png);
+}
+.menu__item.menu__link--airplane:hover .menu__icon{
+    background-image: url(../../icons/main_icon_hover.png);
+}
+.menu__item.menu__link--airplane.active .menu__icon{
+    background-image: url(../../icons/main_icon_hover.png);
+}
+.menu__item.menu__link--star:hover  .menu__icon{
+    background-image: url(../../icons/feed_icon_hover.png);
+}
+.menu__item.menu__link--star.active .menu__icon{
+    background-image: url(../../icons/feed_icon_hover.png);
+}
+.menu__item.menu__link--team:hover  .menu__icon{
+    background-image: url(../../icons/team_icon_hover.png);
+}
+.menu__item.menu__link--team.active  .menu__icon{
+    background-image: url(../../icons/team_icon_hover.png);
+}
+.menu__title{
+    margin-left:15px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: #4b73b5;
+    letter-spacing: 2px;
+    padding-top: 3px;
+    float: left;
+    text-transform: uppercase;
+}
+.menu__item:hover .menu__title{
+    color: #212121;
+}
+.menu__item.active .menu__title{
+    color: #212121;
+}

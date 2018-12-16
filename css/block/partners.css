@@ -1,0 +1,29 @@
+ .partners__container {
+    margin-top: 40px;
+  
+  }
+  .partners__title{
+    color: #221f1f;
+    font-size: 49px;
+    font-weight: bold;
+  }
+  .partners__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .partners__item {
+    flex: 1 0 200px;
+    margin: 40px;
+  }
+
+.partners__logo {
+  filter: grayscale(100%);
+  display: flex;
+  justify-content: center;
+}
+
+.partners__logo:hover{
+  filter: grayscale(0);
+}
+
+  

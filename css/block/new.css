@@ -1,0 +1,96 @@
+/************ ПОСЛЕДНИЕ НОВОСТИ ********************/
+.new-section{
+    margin-bottom: 60px;
+}
+.new-title{
+    font-size: 49px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.content__articles-list{
+    display: flex;
+    flex-direction: column;
+}
+.articles__img{
+    height: 100%;
+    width: 20%;
+    margin-right: 30px;
+}
+.articles__item{
+    padding-bottom: 30px;
+    margin-top: 30px;
+    border-bottom: 2px solid #f5f5f5;
+    display: flex;
+}
+.articles__item:last-child{
+    border-bottom: none;
+}
+.article__pict{
+    width: 177px;
+    height: 177px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.article__desc{
+    width: 80%;
+}
+.article__date{
+    font-weight: 100;
+    font-size: 14px;
+    color: #656464;
+    margin-bottom: 5px;
+}
+.article__name{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.article__text{
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* ПАГИНАТОР */
+.paginator{
+    display: flex;
+    justify-content: center;
+}
+.paginator__display{
+    width: 15%;
+    font-weight: 100;
+    font-size: 14px;
+    color: #807f7f;
+    padding-top: 8px;
+}
+.paginator__list{
+    display: flex;
+}
+.paginator__list-item{
+    width: 25px;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+.paginator__controlls{
+    width: 35%;
+}
+.paginator__list-item.active{
+    background: #4b73b5;
+    border-radius: 3px;
+}
+.paginator__list-item.active .paginator__link{
+    color: #fff;
+}
+.paginator__link:hover{
+    color: #4b73b5;
+}
+.paginator__link{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding-top: 6px;
+    text-decoration: none; /* убираем нижнию полосу */
+}
