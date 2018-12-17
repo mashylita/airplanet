@@ -1,0 +1,26 @@
+
+
+.start__container {
+    width: 100%;
+    height: 100%;
+    background: url(../../img/font.png) center center no-repeat;
+  }
+  .wrapper{
+    
+}
+  .start__logo {
+    
+  }
+  .start__move {
+    margin-top: 39px;
+  }
+  .move__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1c5bc3;
+    padding: 17px 21px;
+    border-radius: 3px;
+    border-color: #1c5bc3;
+  }

@@ -1,44 +1,33 @@
 .review-form{
   display: flex;
+  background-color: #f5f5f5;
+  margin: 61px auto;
+  padding: 40px;
 }
-.review-form__container {
-    background-color: #f5f5f5;
-    margin: 61px auto;
-    padding: 40px;
-  }
-  .review-form__basic {
+  .form-comment__basic {
     display: flex;
     flex-direction: column;
     padding-top: 10px;
 }
-.review-form__profile{
+.form-comment__profile{
      display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.review-form__message{
+.form-comment__message{
   display: flex;
   flex-direction: column;
   margin-top: 20px;
 }
-.review-form__decision{
+.form-comment__decision{
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
 }
-.review-form__title{
+.form-comment__title{
   font-size: 49px;
 }
-.review-form__name-value{
-  width: 100%;
-  border: none;
-	border-radius: 5px;
-  padding: 15px 10px;
-  font-size: 14px;
-  font-weight: lighter;
-	
-}
-.review-form__vk-value{
+.form-comment__input-value{
   width: 100%;
   border: none;
 	border-radius: 5px;
@@ -46,22 +35,26 @@
   font-size: 14px;
   font-weight: lighter;
 }
-.review-form__profile-name{
+.form-comment__profile-input{
+  flex: 1;
+  padding: 5px;
+}
+/* .form-comment__profile-name{
   width: 50%;
   padding-right: 10px;
 }
 
-.review-form__profile-vk{
+.form-comment__profile-vk{
   width: 50%;
-  padding-left: 10px;
-}
+  padding-left: 10px;} */
+
 /* ========================== */
 .review-form__message{
   display: flex;
   flex-direction: column;
   margin-top: 20px;
 }
-.revie-form_message{
+.form-comment__message{
   min-width: 562px;
   min-height: 90px;
   font-size: 14px;
@@ -73,16 +66,16 @@
   resize: none;
 }
 /* =========== */
-.review-form__radio-decision{
+.form-comment__radio-decision{
   display: flex;
   flex-direction: row;
 }
-.review-form__radio-decision-f{
+.form-comment__radio-decision-label{
   padding-right: 15px;
 }
 /* ============= */
 
-.review-form__button{
+.form-comment__button{
   width: 155px;
   height: 47px;
 	background-color: #4b73b5;
@@ -92,21 +85,21 @@
 	padding-top: 12px;
 	cursor: pointer;
 }
-.review-form__button:hover{
+.form-comment__button:hover{
 	background-color: #ffffff;
 	outline: none;
 }
-.review-form__button-submit{
+.form-comment__button-submit{
   font-size: 12px;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #ffffff;
     letter-spacing: 1.8px;
 }
-.review-form__button:hover .review-form__button-submit{
+.form-comment__button:hover .form-comment__button-submit{
   color: #4b73b5;
 }
-.review-form__button-icon{
+.form-comment__button-icon{
   vertical-align: middle;
 	background-image: url(../../icons/str.png);
 	width: 20px;
@@ -115,7 +108,7 @@
 	background-repeat: no-repeat;
 	display: inline-block;
 }
-.review-form__button:hover .review-form__button-icon{
+.form-comment__button:hover .form-comment__button-icon{
   background-image: url(../../icons/strblu.png)
 }
 

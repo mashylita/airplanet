@@ -1,3 +1,6 @@
+.team{
+  margin-bottom: 40px;
+} 
 .team__title{
     color: #221f1f;
     font-size: 49px;
@@ -18,23 +21,21 @@
     margin-bottom: 20px;
   }
   .team__avatar{
+    display: inline-block;
     position: relative;
   }
   .team__avatar-title{
     position: absolute;
     z-index: 1;
-    top: 0;
-    left: 0;
     background: rgba(75, 115, 181, 0.6);
     font-size: 24px;
     font-weight: bold;
     color: #ffffff;
     width: 160px;
     height: 160px;
-    padding-top: 70px;
     display: none;
     border-radius: 50%;
-    margin-left: 45px;
+    padding-top: 60px;
   }
   .team__item:hover .team__avatar-title{
     display: block;

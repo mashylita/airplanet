@@ -1,5 +1,4 @@
 .sidebar{
-    margin-top: 32px;
     width: 20%;
 }
 .menu__item {
@@ -8,21 +7,22 @@
     margin-bottom: 30px;
 }
 .menu__link{
-    display: block;
+    display: flex;
     margin-bottom: 30px;
     text-decoration: none;
+
 }
 .menu__list{
     padding-left: 20px;
     width: 100%;
     height: auto;
-    float: left;
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
 }  
 .menu__icon{
     width: 23px;
     height: 18px;
-    float: left;
 }
 .menu__item.menu__link--airplane .menu__icon{
     background-image: url(../../icons/main_icon.png);
@@ -59,7 +59,6 @@
     color: #4b73b5;
     letter-spacing: 2px;
     padding-top: 3px;
-    float: left;
     text-transform: uppercase;
 }
 .menu__item:hover .menu__title{
